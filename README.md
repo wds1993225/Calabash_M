@@ -3,20 +3,23 @@
 [![Platform](https://img.shields.io/badge/platform-Android-blue.svg)](https://github.com/wds1993225)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)]()
 
-![icon](https://github.com/marktony/ZhiHuDaily/blob/master/screenshots/icon.png)
+![icon](https://github.com/wds1993225/Calabash_M/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容。
 
-----
+
 
 ##界面截图
 
 部分界面仿照了豆瓣一刻，one一个，中华万年历的部分界面。
-![图片1](http://huaban.com/pins/851437160/)
-![图片1](http://huaban.com/pins/851437160/)
-![图片1](http://huaban.com/pins/851437160/)
+![图片1](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-212953.png)
+![图片5](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213604.png)
+![图片2](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213210.png)
+![图片3](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213320.png)
+![图片4](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213409.png)
 
-----
+
+
 
 ## API使用声明
 
@@ -32,14 +35,15 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 
 以上部分 **API** 和**数据**由本人采取非正常手段获取。获取与共享之行为或有侵犯您权益的嫌疑。若被告知需停止共享与使用，本人会及时删除此页面与整个项目，此致。
 
-----
+
+
 
 ## 下载
 
 * [fim](http://fir.im/6mh3)
 * [calabash.apk](http://fir.im/6mh3)
 
-----
+
 
 ## 开源项目
 名称 | 介绍
@@ -61,7 +65,7 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 [BugHD](http://bughd.com/)|App 崩溃信息收集
 
 
-----
+
 
 ##Todo List
 
@@ -70,7 +74,7 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 * 提升应用的稳定性
 * 加入其他功能
 
-----
+
 
 
 ##注意
@@ -78,7 +82,8 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 * 你问我项目为什么这么大，我只能说我往里面放了一个7M的字体。。。
 
 
-----
+
+
 
 ##再次感谢
 
@@ -90,7 +95,9 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 感谢你帮我重新封装网络层以及其他技术指导
 
 
-----
+
+
+
 
 ## 开源许可
 
