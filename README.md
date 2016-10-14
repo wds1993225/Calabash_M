@@ -11,7 +11,8 @@ calabash 是一款娱乐性的app，包括阅读资讯，星座八卦等内容�
 
 ##界面截图
 
-部分界面仿照了豆瓣一刻，one一个，中华万年历的部分界面。
+&nbsp; 部分界面仿照了豆瓣一刻，one一个，中华万年历，知乎的部分界面。
+
 ![图片1](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-212953.png)
 ![图片5](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213604.png)
 ![图片2](https://github.com/wds1993225/Calabash_M/blob/master/screenshots/Screenshot_20161014-213210.png)
