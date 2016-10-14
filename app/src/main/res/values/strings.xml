@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calabash</string>
+    <string name="lolo">CalabashLoLo</string>
+
+    <string name="reader_news">美文</string>
+    <string name="reader_zhi">阅读</string>
+    <string name="reader_joker">段子</string>
+
+    <string name="share_extra"> 分享自 葫芦</string>
+    <string name="share_to">分享至</string>
+
+
+    <string name="constellation_today">今天</string>
+    <string name="constellation_tomorrow">明天</string>
+    <string name="constellation_week">本周</string>
+    <string name="constellation_month">本月</string>
+    <string name="constellation_year">本年</string>
+
+</resources>

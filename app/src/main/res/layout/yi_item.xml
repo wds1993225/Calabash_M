@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                app:cardElevation="3dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <com.facebook.drawee.view.SimpleDraweeView
+
+                        fresco:progressBarImage="@mipmap/pic_yi_progress"
+                        fresco:progressBarImageScaleType="centerInside"
+                        fresco:progressBarAutoRotateInterval="5000"
+                        fresco:failureImage="@mipmap/pic_yi_failure"
+                        fresco:failureImageScaleType="centerInside"
+                        fresco:retryImage="@mipmap/pic_yi_retry"
+                        fresco:retryImageScaleType="centerInside"
+
+                        fresco:roundedCornerRadius="20dp"
+                        fresco:roundTopLeft="true"
+                        fresco:roundTopRight="true"
+                        fresco:roundBottomLeft="true"
+                        fresco:roundBottomRight="true"
+                        fresco:roundingBorderWidth="6dp"
+                        fresco:roundingBorderColor="@color/colorBackground"
+
+
+                        android:id="@+id/yi_item_pic_im"
+                        android:scaleType="fitXY"
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp" />
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/yi_item_num_tv"
+                            android:text="vol.1567"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/yi_item_author_tv"
+                            android:layout_alignParentRight="true"
+                            android:text="冬冬&amp; 阿凯  作品"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <TextView
+                        android:lineSpacingMultiplier="1.2"
+                        android:id="@+id/yi_item_content_tv"
+                        android:textColor="@color/colorTextNormal"
+                        android:layout_marginTop="25dp"
+                        android:textSize="16dp"
+                        android:text="长太息以掩涕兮，哀民生之多艰。 余虽好修姱以鞿羁兮，謇朝谇而夕替。 既替余以蕙纕兮，又申之以揽茝。 亦余心之所善兮，虽九死其犹未悔。 怨灵修之浩荡兮，终不察夫民心。 众女嫉余之蛾眉兮，谣诼谓余以善淫。 固时俗之工巧兮，偭规矩而改错。 背绳墨以追曲兮，竞周容以为度。 忳郁邑余佗傺兮，吾独穷困乎此时也。 宁溘死以流亡兮，余不忍为此态也。 鸷鸟之不群兮，自前世而固然。"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <RelativeLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/yi_item_time_tv"
+                            android:layout_alignParentRight="true"
+                            android:text="sun 11 Sep.2016"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <!--fresco:placeholderImage="@mipmap/pic_yi_place"-->
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorView">#f2f4f7</color>
+    <color name="colorTitlePress">#bab5b5</color>
+    <color name="colorTitleNormal">#ffffff</color>
+
+    <color name="colorGreen">#72C47C</color>
+
+    <color name="colorBackground">#e9e4e4</color>
+    <color name="colorTextNormal">#1a1a1a</color>
+    <color name="colorTextRead">#bd4f4f4f</color>
+    <color name="colorTextAbstractNormal">#bd5f5f5f</color>
+    <color name="colorTextAbstractRead">#bdb0b0b0</color>
+
+    <color name="color_login_tablayout_background">#FFFFFF</color>
+    <color name="color_login_tablayout_tabIndicatorColor">#3F51B5</color>
+    <color name="color_login_tablayout_tabSelectedTextColor">#FF4081</color>
+    <color name="color_login_tablayout_tabTextColor">#8a098c</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#f7ff00</color>
+    <color name="colorGray">#c2e9e4e4</color>
+    <color name="colorRed">#f2000c</color>
+    <color name="colorBlue">#00a0e9</color>
+    <color name="colorSmallGreen">#00c800</color>
+    <color name="colorOrange">#ffb301</color>
+
+
+    <color name="colorHeadBlue">#f4a7b9</color>
+    <!--#f4a7b9--><!--一斥染-->
+    <!--#f596aa--><!--桃-->
+    <!--#89c166--><!--苗-->
+    <!--#d9cd90--><!--蒸栗-->
+    <!--#c1327a--><!--牡丹-->
+    <!--#a8497a--><!--梅紫-->
+    <!--#8b81c3--><!--藤-->
+    <!--#7db9de--><!--勿忘草-->
+    <!--#81c7d4--><!--水-->
+    <!--#66bab7--><!--水浅葱-->
+    <!--#e1a679--><!--赤白橡-->
+    <!--#fb9966--><!--深支子-->
+    <!--#e3926e--><!--赤铅-->
+    <!--#fcaeae-->
+    <!--#9c76afb4-->
+    <!--#b06dbeaf-->
+
+    <color name="colorHeadPink">#ffa4a4</color>
+    <color name="colorHeadPurple">#e1a4ff</color>
+    <color name="colorHeadGreen">#a4ffe2</color>
+
+    <color name="mainBackground">#88000000</color>
+    <color name="black">#cf000000</color>
+    <color name="colorConstellationText">#ddddde</color>
+
+    <color name="colorDarkRed">#c52f30</color>
+    
+    <color name="colorBackA">#e14366</color>
+    <color name="colorBackB">#fd9b98</color>
+    <color name="colorBackC">#f9ccad</color>
+    <color name="colorBackD">#c8c7a9</color>
+    <color name="colorBackE">#bc84af9b</color>
+    <color name="colorBackDD">#bcc8c7a9</color>
+
+    <color name="colorViewCover">#42000000</color>
+
+</resources>

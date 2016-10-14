@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/dou_item_ll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dou_item_type"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/border_dou"
+            android:layout_marginLeft="15dp"
+            android:text="去旅行"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dou_item_title"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="22dp"
+            android:textColor="@color/colorTextNormal"
+            android:text="那年我21岁，在我一生的黄金年代，我有许多奢望"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/news_item_title_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/colorTextAbstractNormal"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/dou_item_abstract"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:minLines="2"
+                    android:text="号外：集宁到乌兰花的班车出事了"
+                    android:textSize="16dp" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    fresco:progressBarImage="@mipmap/pic_yi_progress"
+                    fresco:progressBarImageScaleType="centerInside"
+                    fresco:progressBarAutoRotateInterval="5000"
+                    fresco:failureImage="@mipmap/pic_yi_failure"
+                    fresco:failureImageScaleType="centerInside"
+                    fresco:retryImage="@mipmap/pic_yi_retry"
+                    fresco:retryImageScaleType="centerInside"
+                    android:scaleType="fitXY"
+                    android:id="@+id/dou_item_pic"
+                    android:layout_width="144dp"
+                    android:layout_height="144dp"
+                    android:layout_marginRight="5dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:background="@color/colorView"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></View>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

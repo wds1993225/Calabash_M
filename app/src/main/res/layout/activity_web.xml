@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.meetcity.calabash.widget.HeadLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/web_ns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/web_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></WebView>
+            <RelativeLayout
+                android:visibility="invisible"
+                android:id="@+id/web_activity_adback_rl"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="这里是广告"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:id="@+id/web_totop"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/pic_totop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="返回顶部"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <View
+                android:background="@color/colorView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+            <LinearLayout
+                android:visibility="invisible"
+                android:layout_marginTop="18dp"
+                android:id="@+id/web_activity_root"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/ad_web_container_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="blocksDescendants">
+
+                    <!-- 原生广告的小图 -->
+                    <ImageView
+                        android:id="@+id/ad_web_logo_im"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp" />
+
+                    <!-- 原生广告的点击按钮 -->
+                    <Button
+                        android:id="@+id/ad_web_download_bt"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@id/ad_web_logo_im"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_selector"
+                        android:textSize="12dp" />
+
+                    <!-- 原生广告的标题 -->
+                    <TextView
+                        android:id="@+id/ad_web_title_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/ad_web_logo_im"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@id/ad_web_logo_im"
+                        android:layout_toLeftOf="@id/ad_web_download_bt"
+                        android:textColor="#e0000000" />
+
+                    <!-- 原生广告的描述 -->
+                    <TextView
+                        android:id="@+id/ad_web_des_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/ad_web_logo_im"
+                        android:layout_below="@id/ad_web_title_tv"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_toLeftOf="@id/ad_web_download_bt"
+                        android:layout_toRightOf="@id/ad_web_logo_im"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="#a0000000" />
+                </RelativeLayout>
+                <FrameLayout
+                    android:id="@+id/custom_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp">
+
+                    <!-- 原生广告的视频组件 -->
+
+                    <!-- 开发者自定义的倒计时 -->
+
+                    <!-- 原生广告的大图 -->
+                    <ImageView
+                        android:id="@+id/ad_web_poster_im"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

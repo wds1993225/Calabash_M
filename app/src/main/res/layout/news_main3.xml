@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="1dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp"
+    card_view:cardBackgroundColor="@android:color/transparent"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardElevation="0dp"
+    >
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@color/colorBackD"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/news_main_Rl"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/constellation_main_name_tv"
+                    android:textSize="25dp"
+                    android:text="娱乐八卦"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+
+                    android:id="@+id/news_main_pic_im"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/test4"
+                    android:layout_width="128dp"
+                    android:layout_height="96dp" />
+
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toLeftOf="@id/news_main_pic_im"
+                    android:layout_below="@id/constellation_main_name_tv"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:id="@+id/news_main_title_tv"
+                    android:textColor="@color/colorTextNormal"
+                    android:text="    夜读】梁晓声：你追求的，就是你人生的意义"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="20dp"
+                android:background="@color/trans_success_stroke_color"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/colorBackDD"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/news_main_more_im"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/pic_news_main_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/news_main_more_tv"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorDarkRed"
+                    android:layout_marginRight="3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/news_main_more_im"
+                    android:text="更多"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
